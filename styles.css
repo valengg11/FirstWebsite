@@ -1,0 +1,162 @@
+body, main{
+    display: flex;
+}
+body{
+    flex-direction: column;
+}
+main{
+    flex-direction: row; 
+    flex: auto;
+}
+article{
+    flex: 2;
+}
+aside{
+    flex: 1;
+}
+article, aside{
+    overflow-y: auto;
+}
+
+header {
+    background-color:#FDFFFF;
+    color: #4E516A;
+    border-top: #4E516A 10px solid;
+    padding: 0;
+}
+
+body {
+    background-color:#fafafa;
+    color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+    text-align: block;
+    width: 100%;
+}
+
+.fotoredonda {
+    float:left;
+    margin: 30px; 
+    padding: 30px;
+    filter: grayscale(100%);
+}
+
+.personal {
+    margin: 20px;
+    text-align: left;
+    font-size: 17px;
+    background-color:#FF577D; 
+    padding: 20px;
+}
+
+.cualidades{
+    font-size:20px;
+    text-align: center;
+}
+
+.habilidades{
+    background-color: #4ADCC4   ;
+    color: #4E516A;
+    padding: 10px;
+    text-align: center;
+    margin:20px;
+}
+
+.mishab {
+    line-height:0.5px;
+    font-size: 30px;
+}
+
+#lsthab li{
+    display: inline; 
+    padding-left: 8px;
+    padding-right:8px;
+    font-size: 20px;
+    background-color: #4E516A;
+    color: #F4F4F4;
+}
+
+.formacionacad {
+    float: center;
+    margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 20px;
+}
+
+img.small{
+    width:100px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.education{
+    float: left;
+    padding-bottom: 20px;
+}
+
+.formacioncomp {
+    float: center;
+    margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 20px;
+}
+
+.explaboral{
+    float: center;
+    margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 30px;
+}
+
+.nombre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.profesion{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.encabezado{
+    margin: 20px;
+    float: left;
+}
+
+.lista{
+    float: right;
+    margin-top:40px;
+    margin-right: 40px;
+}
+
+#listaredes li{
+    display: inline;
+    padding-left: 7px;
+    padding-right:7px;
+    
+}
+
+footer {
+    background-color: #FF577D; 
+    color: #F4F4F4;
+    padding: 10px;
+    text-align: center;
+    margin:20px;
+}
+
+.tweets{
+    padding: 20px;
+}
+
+.container{
+    background-color: #FF577D;
+}
+
+
+
+
+
+

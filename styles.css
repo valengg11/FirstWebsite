@@ -4,19 +4,6 @@ body, main{
 body{
     flex-direction: column;
 }
-main{
-    flex-direction: row; 
-    flex: auto;
-}
-article{
-    flex: 2;
-}
-aside{
-    flex: 1;
-}
-article, aside{
-    overflow-y: auto;
-}
 
 header {
     background-color:#FDFFFF;
@@ -29,23 +16,79 @@ body {
     background-color:#fafafa;
     color: #F4F4F4;
     font-family: 'Poppins', sans-serif;
-    text-align: block;
     width: 100%;
 }
 
-.fotoredonda {
-    float:left;
-    margin: 30px; 
-    padding: 30px;
+h1 {
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+.container{
+    margin: 50px;
+    border-radius: 7px;
+    align-content: center;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px silver;
+    text-align:center;
+}
+
+.about-me-container{
+    background:#FF577D;
+}
+.skills-container{
+    background:#4ADCC4; 
+} 
+
+
+@media all and (max-width: 479px){
+    .container{
+        width: 90%;
+        padding: 20px;
+        margin: 50px;
+        flex-direction: column;
+        align-content: center;
+    }
+    .photo{
+        width: 100%;
+    }
+    .about-me-container{
+        width: 70%;
+    }
+}    
+@media all and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 70%;
+        padding: 50px;   
+    }
+    .photo{
+        width: 100%;
+    }
+    .about-me-container p, h1{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media all and (min-width: 768px){
+    .container{
+        width: 75%;
+        padding: 50px;
+    }  
+}    
+
+.photo {
+    display: flex;
+    flex: 1 1 0%;
+    margin: 10px; 
     filter: grayscale(100%);
 }
 
-.personal {
-    margin: 20px;
+.personal-description {
+    flex: 1 1 0%;
     text-align: left;
     font-size: 17px;
-    background-color:#FF577D; 
-    padding: 20px;
 }
 
 .cualidades{
@@ -54,16 +97,11 @@ body {
 }
 
 .habilidades{
-    background-color: #4ADCC4   ;
+    background-color:    ;
     color: #4E516A;
     padding: 10px;
     text-align: center;
     margin:20px;
-}
-
-.mishab {
-    line-height:0.5px;
-    font-size: 30px;
 }
 
 #lsthab li{
@@ -77,10 +115,8 @@ body {
 
 .formacionacad {
     float: center;
-    margin: 20px;
     color: #4E516A;
     background-color:#FDFFFF;
-    padding: 20px;
 }
 
 img.small{
@@ -89,9 +125,10 @@ img.small{
     padding-top: 10px;
 }
 
-.education{
+.education-list{
     float: left;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .formacioncomp {
@@ -147,13 +184,8 @@ footer {
     margin:20px;
 }
 
-.tweets{
-    padding: 20px;
-}
 
-.container{
-    background-color: #FF577D;
-}
+
 
 
 

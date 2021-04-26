@@ -25,10 +25,9 @@ h1 {
 }
 
 .container{
-    margin: 50px;
     border-radius: 7px;
     align-content: center;
-    margin: 50px auto;
+    margin: 30px auto;
     box-shadow: 5px 5px 5px silver;
     text-align:center;
 }
@@ -40,13 +39,11 @@ h1 {
     background:#4ADCC4; 
 } 
 
-
 @media all and (max-width: 479px){
     .container{
         width: 90%;
         padding: 20px;
         margin: 50px;
-        flex-direction: column;
         align-content: center;
     }
     .photo{
@@ -61,6 +58,7 @@ h1 {
     .container{
         width: 70%;
         padding: 50px;   
+        align-content: center;
     }
     .photo{
         width: 100%;
@@ -77,16 +75,22 @@ h1 {
 }
 @media all and (min-width: 768px){
     .container{
-        width: 75%;
+        width: 60%;
         padding: 50px;
+        align-content: center;
     }  
     .photo{
         width: 50%;
+        order: 1;
+    }
+    .personal-description{
+        order: 2;
     }
     .about-me-container p {
         width: 40%;
         display: flex;
-        flex-direction: row
+        flex-direction: row;
+        align-items: flex-start;
     }
 }    
 
@@ -122,34 +126,13 @@ h1 {
     color: #F4F4F4;
 }
 
-.formacionacad {
-    float: center;
+.light-container {
     color: #4E516A;
     background-color:#FDFFFF;
 }
 
-img.small{
-    width:100px;
-    padding-left: 40px;
-    padding-top: 10px;
-}
-
-.education-list{
-    float: left;
-    padding-bottom: 20px;
+.light-container ul {
     text-align: left;
-}
-
-.formacioncomp {
-    text-align: left;
-    color: #4E516A;
-    background-color:#FDFFFF;
-}
-
-.explaboral{
-    text-align: left;
-    color: #4E516A;
-    background-color:#FDFFFF;
 }
 
 .nombre{
@@ -160,7 +143,6 @@ img.small{
 
 .profesion{
     font-family: 'Poppins', sans-serif;
-
 }
 
 .encabezado{
@@ -177,8 +159,7 @@ img.small{
 #listaredes li{
     display: inline;
     padding-left: 7px;
-    padding-right:7px;
-    
+    padding-right:7px;   
 }
 
 footer {

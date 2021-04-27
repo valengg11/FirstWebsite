@@ -74,7 +74,7 @@ h1 {
 }    
 
 .photo {
-    filter: grayscale(100%);
+    
 }
 
 .personal-description {
@@ -114,12 +114,16 @@ h1 {
 }
 
 .name{
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
     padding-bottom: 0;
 }
 .name p {
     margin-bottom: 0;
+}
+
+.profession{
+    font-size: 20px;
 }
 
 .encabezado{

@@ -8,7 +8,8 @@ header {
     background-color:#FDFFFF;
     color: #4E516A;
     border-top: #4E516A 10px solid;
-    padding: 0;
+    padding: 20px;
+    box-shadow: 5px 5px 5px silver;
 }
 
 body {
@@ -32,6 +33,13 @@ h1 {
     text-align:center;
 }
 
+.about-me-container p{
+    margin: 0 auto;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
 .about-me-container{
     background:#FF577D;
 }
@@ -46,13 +54,6 @@ h1 {
         margin: 50px;
         align-content: center;
     }
-    .photo{
-        width: 100%;
-        padding-bottom: 10px;
-    }
-    .about-me-container{
-        width: 70%;
-    }
 }    
 @media all and (min-width: 480px) and (max-width: 767px){
     .container{
@@ -61,16 +62,7 @@ h1 {
         align-content: center;
     }
     .photo{
-        width: 100%;
         padding-bottom: 10px;
-    }
-    .about-me-container p{
-        width: 80%;
-        margin: 0 auto;
-        text-align: justify;
-    }
-    h1 {
-        text-align: center;
     }
 }
 @media all and (min-width: 768px){
@@ -79,19 +71,6 @@ h1 {
         padding: 50px;
         align-content: center;
     }  
-    .photo{
-        width: 50%;
-        order: 1;
-    }
-    .personal-description{
-        order: 2;
-    }
-    .about-me-container p {
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
 }    
 
 .photo {
@@ -110,7 +89,6 @@ h1 {
 }
 
 .habilidades{
-    background-color:    ;
     color: #4E516A;
     padding: 10px;
     text-align: center;
@@ -135,14 +113,13 @@ h1 {
     text-align: left;
 }
 
-.nombre{
+.name{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    line-height: 0;
+    padding-bottom: 0;
 }
-
-.profesion{
-    font-family: 'Poppins', sans-serif;
+.name p {
+    margin-bottom: 0;
 }
 
 .encabezado{
@@ -163,11 +140,16 @@ h1 {
 }
 
 footer {
-    background-color: #FF577D; 
+    background: #4ADCC4; 
     color: #F4F4F4;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    margin:20px;
+    box-shadow: 5px 5px 5px silver;
+}
+
+.made-by{
+    color: #4E516A;
+    margin: 30px auto;
 }
 
 
